@@ -1,0 +1,129 @@
+
+.app__footer {
+    background-color: #3B3B3B;
+    width: 100%;
+ margin-top: 0;
+    padding: 40px 0; }
+    .app__footer__content {
+      display: flex;
+      justify-content: space-between; }
+      .app__footer__content__right {
+        width: 285px; }
+        .app__footer__content__right__joinour {
+          font-family: "Work Sans", sans-serif;
+          padding-bottom: 20px;
+          font-size: 0.8rem;
+          color: #CCCCCC;
+          font-family: sans-serif;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 2px; }
+        .app__footer__content__right__text {
+          padding: 20px 0 30px 0;
+          font-size: 0.8rem;
+          color: #CCCCCC;
+          font-family: sans-serif;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 2px;
+          font-family: "Work Sans", sans-serif; }
+        .app__footer__content__right__icon {
+          display: flex;
+          justify-content: space-between;
+          width: 158px; }
+          .app__footer__content__right__icon a {
+            border-radius: 8px;
+            display: flex;
+            align-items: center; 
+          font-size: large;
+
+            color: #858584;
+        }
+      
+      .app__footer__content__middle {
+        padding-top: 5px; }
+        .app__footer__content__middle h4 {
+          font-family: "Space Mono", sans-serif;
+          font-weight: 700;
+          color: white;
+          font-size: 1.2rem;
+          padding-bottom: 30px; }
+        .app__footer__content__middle ul li {
+          padding-bottom: 30px;
+          list-style: none;  }
+          .app__footer__content__middle ul li a {
+            text-decoration: none;
+            font-family: "Work Sans", sans-serif;
+            font-size: 16px;
+            color: #CCCCCC;
+            font-weight: 400;
+           }
+          
+
+      .app__footer__content__left {
+        padding-top: 5px;
+        width: 420px; }
+        .app__footer__content__left h4 {
+          font-family: "Space Mono", sans-serif;
+          font-weight: 700;
+          color: white;
+          font-size: 1.2rem;
+          padding-bottom: 30px; }
+        .app__footer__content__left p {
+          font-family: "Work Sans", sans-serif;
+          font-size: 16px;
+          color: #CCCCCC;
+          font-weight: 400;
+          transition: .4s;
+          width: 330px;
+          line-height: 22px; }
+        .app__footer__content__left div {
+          background-color: white;
+          border-radius: 19px;
+          margin-top: 20px;
+          display: flex; }
+          .app__footer__content__left div input {
+            border: none;
+            border-radius: 19px;
+            width: 320px; }
+          .app__footer__content__left div [placeholder~="email"] {
+            padding: 0 10px;
+            font-size: 1rem; }
+          .app__footer__content__left div button {
+            padding: 19px 50px;
+            border-radius: 20px;
+            background-color: #A259FF;
+            border: 0 solid transparent;
+            color: white;
+            font-family: "Work Sans", sans-serif;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            overflow: hidden;
+            transition: .6s;
+            font-size: 0.8rem;
+            border-radius: 19px;
+            display: flex;
+            justify-content: center; }
+            .app__footer__content__left div button:hover {
+              transform: scale(95%);
+              transition: .6s;
+              -webkit-transform: scale(95%);
+              -moz-transform: scale(95%);
+              -ms-transform: scale(95%);
+              -o-transform: scale(95%);
+}
+            .app__footer__content__left div button img {
+              display: none; }
+    .app__footer__bottom {
+      margin-top: 33px;
+      border-top: 1px solid #858584;
+      height: 50px;
+      padding-top: 20px; }
+      .app__footer__bottom span {
+        color: #CCCCCC;
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family: "Work Sans"; }
+  
